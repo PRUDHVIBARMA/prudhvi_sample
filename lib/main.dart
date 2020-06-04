@@ -11,7 +11,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
         
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
+    );
+  }
+}
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
     );
   }
 }
